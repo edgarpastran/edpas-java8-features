@@ -1,4 +1,4 @@
-package com.edpas.java8.h.Annotation;
+package com.edpas.java8.h.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
