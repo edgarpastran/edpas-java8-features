@@ -19,8 +19,8 @@ public class Collection {
 	private void useForEach() {
 		System.out.println("Method useForEach");
 		
-		// JDK <= 1.7
-		System.out.println("JDK <= 1.7:");
+		// JDK <= 7
+		System.out.println("JDK <= 7:");
 		for (String state: this.getStates()) {
 			System.out.println(state);
 		}
@@ -39,8 +39,8 @@ public class Collection {
 	private void useRemoveIf() {
 		System.out.println("Method useRemoveIf");
 		
-		// JDK <= 1.7
-		System.out.println("JDK <= 1.7:");
+		// JDK <= 7
+		System.out.println("JDK <= 7:");
 		List<String> copy1 = this.getStates();
 		Iterator<String> iterator = copy1.iterator();
 		while (iterator.hasNext()) {
@@ -62,8 +62,8 @@ public class Collection {
 	private void useSort() {
 		System.out.println("Method useSort");
 		
-		// JDK <= 1.7
-		System.out.println("JDK <= 1.7:");
+		// JDK <= 7
+		System.out.println("JDK <= 7:");
 		List<String> copy1 = this.getStates();
 		Collections.sort(copy1, new Comparator<String>() {
 			@Override

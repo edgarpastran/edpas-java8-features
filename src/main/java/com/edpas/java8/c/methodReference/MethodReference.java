@@ -15,9 +15,9 @@ public class MethodReference {
 	}
 	
 	private void referenceMethodAnyInstance() {
-		// JDK <= 1.7
+		// JDK <= 7
 		String[] copy1 = this.getStates();
-		System.out.println("JDK <= 1.7:");
+		System.out.println("JDK <= 7:");
 		Arrays.sort(copy1, new Comparator<String>() {
 			@Override
 			public int compare(String o1, String o2) {
@@ -48,8 +48,8 @@ public class MethodReference {
 	}
 	
 	private void referenceConstructor() {
-		// JDK <= 1.7
-		System.out.println("JDK <= 1.7:");
+		// JDK <= 7
+		System.out.println("JDK <= 7:");
 		IPerson iPerson1 = new IPerson() {
 			@Override
 			public Person create(int id, String name) {

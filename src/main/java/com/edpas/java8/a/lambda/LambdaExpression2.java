@@ -3,7 +3,7 @@ package com.edpas.java8.a.lambda;
 public class LambdaExpression2 {
 
 	private void getAverageWithJava7() {
-		System.out.println("JDK <= 1.7:");
+		System.out.println("JDK <= 7:");
 		IAuxiliar average = new IAuxiliar() {			
 			@Override
 			public double calculate(double n1, double n2) {

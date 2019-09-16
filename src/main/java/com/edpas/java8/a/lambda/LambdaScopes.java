@@ -6,7 +6,7 @@ public class LambdaScopes {
 	private double attribute2;	
 	
 	private double testLocalVariableWithJava7() {
-		System.out.println("JDK <= 1.7:");
+		System.out.println("JDK <= 7:");
 		final double n3 = 3;
 		IAuxiliar add = new IAuxiliar(){
 			@Override
@@ -38,7 +38,7 @@ public class LambdaScopes {
 	}
 	
 	private double testAttributesWithJava7() {
-		System.out.println("JDK <= 1.7:");
+		System.out.println("JDK <= 7:");
 		IAuxiliar add = new IAuxiliar(){
 			@Override
 			public double calculate(double n1, double n2) {

@@ -52,5 +52,6 @@ public class OptionalApp {
 		app.orElseThrow("Texas");
 		app.orElseThrow(null);
 		app.isPresent("Texas");
+		app.isPresent(null);
 	}
 }

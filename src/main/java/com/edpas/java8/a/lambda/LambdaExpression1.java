@@ -16,7 +16,7 @@ public class LambdaExpression1 {
 	}
 	
 	private void orderWithJava7() {
-		System.out.println("JDK <= 1.7:");
+		System.out.println("JDK <= 7:");
 		List<String> states = this.getStates();
 		Collections.sort(states, new Comparator<String>() {
 			@Override
