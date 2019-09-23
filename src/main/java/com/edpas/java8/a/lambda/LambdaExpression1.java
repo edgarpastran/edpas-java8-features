@@ -53,6 +53,6 @@ public class LambdaExpression1 {
 	public static void main(String[] args) {
 		LambdaExpression1 lambda = new LambdaExpression1();
 		lambda.order(7);
-		lambda.order(8);
+		lambda.order(8);		
 	}
 }
